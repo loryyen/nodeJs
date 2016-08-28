@@ -9,15 +9,16 @@ module.exports = function(request, response) {
         });
         request.on("end", function() {
             body = Buffer.concat(body).toString();
-            
+            request.body=querystring.parse(body);
             response.writeHead(200,{
                 "Content-Type":"text/html; charset=utf-8"
             });
-            
-            
-            
-            
-            
+            if(request.body.username==="username" && request.body.password==="password"){
+                response.write("<h1>Success</h1>");
+            }
+            else{
+                response.write("<h1>Fail</h1>");
+            }
             response.end();
         });
     }

@@ -24,14 +24,17 @@ module.exports = function(request, response) {
 
 
 
-
-
-
-
-
-
-
-
-
-
+ if (pathname === "/api/tips/") {
+        response.writeHead(200,{
+            "Content-Type":"application/json; charset=utf-8"
+        });
+        var tips =  [
+           "123",
+           "234",
+           "345"
+        ];
+        var tip=tips[~~(Math.random()*tips.length)];
+        response.write(JSON.stringify(tip));
+        response.end();
+    }
 };

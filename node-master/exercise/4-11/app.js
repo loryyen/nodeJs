@@ -17,7 +17,7 @@ http.createServer(function(request, response) {
         }
     }
     pathname = (process.argv[2] || ".") + pathname; //若有傳入參數則使用參數的路徑
-
+    pathname = decodeURI(pathname);
     try {
         if (fs.statSync(pathname).isFile()) {
             response.writeHead(200, {
