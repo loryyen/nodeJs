@@ -10,3 +10,5 @@ NPM　：https://www.npmjs.com/
 Json2Jsonp : https://json2jsonp.com/
 
 encodeURIcomponent
+
+VS Code開發node.js : http://luvjennifer-tw-blog.logdown.com/posts/2016/04/19/developed-with-visual-studio-code-nodejs
