@@ -19,4 +19,6 @@ Jsonview
 
 https://www.mongodb.com/
 
+server run template to render lang in script section
+
 
