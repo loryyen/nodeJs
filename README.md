@@ -1,6 +1,9 @@
 # nodeJs
 記錄nodeJs的學習心得
 
+https://farm4.staticflickr.com/3874/15133570248_6e97c070d6_c.jpg
+
+
 下載　：https://nodejs.org/en/
 
 NPM　：https://www.npmjs.com/
