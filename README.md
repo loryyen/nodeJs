@@ -25,6 +25,8 @@ https://www.mongodb.com/
 server run template to render lang in script section
 
 ---
+爬蟲
 Cherio (Jsdom)
 http://larry850806.github.io/2016/06/07/cheerio-weather/
 
+http://blog.infographics.tw/2015/03/crawl-data-with-nodejs/
