@@ -24,4 +24,7 @@ https://www.mongodb.com/
 
 server run template to render lang in script section
 
+---
+Cherio (Jsdom)
+http://larry850806.github.io/2016/06/07/cheerio-weather/
 
