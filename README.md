@@ -13,6 +13,7 @@ NPM　：https://www.npmjs.com/
 Json2Jsonp : https://json2jsonp.com/
 
 encodeURIcomponent
+http://perrywu0606.pixnet.net/blog/post/24587737-escape%2C-encodeuri%E4%BB%A5%E5%8F%8Aencodeuricomponent%E7%9A%84%E5%B7%AE%E7%95%B0
 
 VS Code開發node.js : http://luvjennifer-tw-blog.logdown.com/posts/2016/04/19/developed-with-visual-studio-code-nodejs
 
